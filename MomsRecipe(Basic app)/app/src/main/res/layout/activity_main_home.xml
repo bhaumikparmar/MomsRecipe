@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2B6598"
+    tools:context=".MainActivity_home">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#D3190D2E"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="325dp"
+            android:layout_gravity="bottom" >
+
+            <ImageView
+                android:id="@+id/main_image"
+                android:layout_width="165dp"
+                android:layout_height="157dp"
+                android:layout_gravity="bottom|center"
+                android:src="@drawable/recipe_icon" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="403dp">
+
+            <TextView
+                android:id="@+id/text_app"
+                android:layout_width="339dp"
+                android:layout_height="61dp"
+                android:layout_gravity="center|top"
+                android:gravity="center"
+                android:text="Mom's Recipes"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                android:textStyle="normal|italic" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
